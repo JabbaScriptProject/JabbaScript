@@ -11,7 +11,7 @@ body {
     background-color: #C52146;
 }
 
-h1 {
+.quatro {
      position: absolute;
      width: 383px;
      height: 257px;
@@ -19,7 +19,7 @@ h1 {
      top: 280px;  
 }
 
-p1 {
+.cinco {
      position: absolute;
      width: 500px;
      height: 180px;
@@ -27,10 +27,23 @@ p1 {
      top: 385px;
 }
 
-img {
+.tres {
      position: absolute;
      width: 58px;
      height: 92px;
      left: 170px;
      top: 183px;
+}
+
+.uno {
+     position: absolute;
+     left: 370px;
+     top: 500px;
+}
+
+
+.dos {
+     position: absolute;
+     left: 170px;
+     top: 500px;
 }
