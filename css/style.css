@@ -1,0 +1,13 @@
+body {
+    background-color: #C52146;
+}
+
+#background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: whitex;
+    z-index: 1;
+}
