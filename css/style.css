@@ -1,3 +1,10 @@
+#background {
+     position: fixed;
+     width: 50%;
+     height: 100%;
+     background-color: white;
+ }
+
 body {
     margin: 0;
     padding: 0;
@@ -27,9 +34,3 @@ img {
      left: 170px;
      top: 183px;
 
-#background {
-    position: fixed;
-    width: 50%;
-    height: 100%;
-    background-color: white;
-}
