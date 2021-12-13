@@ -7,7 +7,20 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="./img/icon.svg" type="image/x-icon">
-    
+ 
+ 
+    <script>
+    function changeColor(){
+    var a = Math.floor(Math.random() * 266); 
+    var b = Math.floor(Math.random() * 266); 
+    var c = Math.floor(Math.random() * 266); 
+    var d = Math.floor(Math.random() * 266); 
+    document.body.style.backgroundColor = "rgb(" + a + "," + b + "," + c +","+ d +")";
+  }
+  
+  setInterval(changeColor, 1000);
+    </script>
+
 </head>
 <script src="kleuren.js"></script>
 <body class="container">  
@@ -32,5 +45,6 @@
         </video>
       </div>
     </section>
+
 </body>
 </html>
