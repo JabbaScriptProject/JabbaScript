@@ -1,4 +1,4 @@
-left {
+.left {
      flex: 1;
      height: 100%;
      display: flex;
@@ -16,7 +16,7 @@ left {
      justify-content: center;
      align-content: center;
      align-items: center;
- 
+  
 }
 
 
