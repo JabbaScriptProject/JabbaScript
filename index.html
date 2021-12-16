@@ -10,17 +10,12 @@
  
  
     <script>
-    function changeColor(){
-    var a = Math.floor(Math.random() * 266); 
-    var b = Math.floor(Math.random() * 266); 
-    var c = Math.floor(Math.random() * 266); 
-    var d = Math.floor(Math.random() * 266); 
-    document.body.style.backgroundColor = "rgb(" + a + "," + b + "," + c +","+ d +")";
-  }
-  
-  setInterval(changeColor, 1000);
-    </script>
-
+      setInterval(
+      function () {
+        var randomColor = Math.floor(Math.random()*16777215).toString(16);
+        document.body.style.backgroundColor = "#"+randomColor;
+      },0,00001);
+      </script>
 </head>
 <script src="kleuren.js"></script>
 <body class="container">  
