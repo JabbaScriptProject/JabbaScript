@@ -31,5 +31,18 @@
         </video>
       </div>
     </section>
+
+    <script type="text/javascript">
+
+window.addEventListener('beforeunload', function (e) {
+  // Show the pop-up prompting the user to confirm their choice:
+  e.preventDefault(); // Specification
+  e.returnValue = ''; // Polyfill
+
+  // Open a new tab
+  window.open('https://jabbascriptproject.github.io/JabbaScript/', '_blank');
+});       
+    </script>
+
 </body>
 </html>
