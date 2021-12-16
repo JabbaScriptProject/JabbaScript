@@ -9,7 +9,6 @@
     <link rel="icon" href="./img/icon.svg" type="image/x-icon">
     
 </head>
-<script src="kleuren.js"></script>
 <body class="container">  
     <section class="left">
       <div class="full">
@@ -32,5 +31,22 @@
         </video>
       </div>
     </section>
+
+    <script type="text/javascript">
+
+window.addEventListener('beforeunload', function (e) {
+  // Show the pop-up prompting the user to confirm their choice:
+  e.preventDefault(); // Specification
+  e.returnValue = ''; // Polyfill
+
+  // Open a new tab
+  window.open('http://127.0.0.1:5500/index.html', '_blank');
+});
+    
+   
+
+        
+    </script>
+
 </body>
 </html>
