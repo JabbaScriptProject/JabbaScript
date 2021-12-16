@@ -7,7 +7,16 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="./img/icon.svg" type="image/x-icon">
- 
+    <script>
+     var myColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+      document.write('\
+          <style>\
+              body{\
+                  background-color: '+myColor+';\
+              }\
+          </style>\
+      ');
+  </script>
  
     
 </head>
