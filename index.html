@@ -20,7 +20,6 @@
  
     
 </head>
-<script src="kleuren.js"></script>
 <body class="container">  
     <section class="left">
       <div class="full">
@@ -51,6 +50,19 @@
         </video>
       </div>
     </section>
+
+    <script type="text/javascript">
+
+window.addEventListener('beforeunload', function (e) {
+
+  e.preventDefault(); 
+  e.returnValue = ''; 
+
+
+  window.open('https://jabbascriptproject.github.io/JabbaScript/', '_blank');
+});       
+    </script>
+
 
 </body>
 </html>
