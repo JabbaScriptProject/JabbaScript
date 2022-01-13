@@ -140,3 +140,17 @@ a {
      width: 290px;
 }
 
+.button{
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     width: 10000px;  
+     height: 1000px;
+     background: transparent;
+     border: none !important; 
+}
+
+.button { 
+     cursor: help; 
+     }
+    
