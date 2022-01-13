@@ -133,3 +133,10 @@ a {
      width: 277px;
 }
 
+.some{
+     position: relative;
+     left: 45px;
+     top: 105px;
+     width: 290px;
+}
+
