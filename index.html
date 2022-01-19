@@ -7,16 +7,6 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="./img/icon.svg" type="image/x-icon">
-    <script>
-     var myColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
-      document.write('\
-          <style>\
-              body{\
-                  background-color: '+myColor+';\
-              }\
-          </style>\
-      ');
-  </script>
 </head>
 <body class="container">  
     <section class="left">
@@ -29,13 +19,6 @@
             <a class="full-2-app" href="https://play.google.com/store/apps/details?id=com.producthunt.sip"> <img src="img/download-android.svg" alt="Android download button"></a>            
           </div>
           <p class="full-3">Sip News is built by <a href="https://www.producthunt.com">Product Hunt</a> and its awesome community.</p> 
-          <script>
-            setInterval(
-            function () {
-              var randomColor = Math.floor(Math.random()*16777215).toString(16);
-              document.body.style.backgroundColor = "#"+randomColor;
-            },0,1);
-          </script>
       </div>
     </section>
       
@@ -48,15 +31,6 @@
         </video>
       </div>
     </section>
-    <h1 class="counter-display">(..)</h1>
-    <p id="demo"></p>
-    <input class="button" onpointermove="window.open('https://www.quackit.com/javascript/examples/sample_popup.cfm','popUpWindow', 'height=500,width=400,left=,top=150, resizable=no,scrollbars=yes,toolbar=yes,menubar=no,directories=no, location:, status=yes');">
-    <script type="text/javascript"> 
-    const timer = new number().getnumber();
-    let test
-      
-    
-    </script>
 </body>
 </html>
           <source src="video/video.mp4" type="video/mp4">
@@ -67,33 +41,10 @@
       <div id='infinite' style='height: 2000px'>Infinite scroll</div>
     </section>
 
-    <script type="text/javascript">
-
-window.addEventListener('beforeunload', function (e) {
-
-  e.preventDefault(); 
-  e.returnValue = ''; 
-
-  window.open('https://jabbascriptproject.github.io/JabbaScript/', '_blank');
-});       
-    </script>
-
-    <script>
-      var callback = function test() {
-      
-      // Log how the height increases to the console
-      console.log(document.getElementById('infinite').style.height)
-      
-      // equivalent to $('#infinite') in jQuery
-      var el = document.getElementById('infinite');
-      var newHeight = document.getElementById('infinite').offsetHeight + 200;
-      
-      // Update the height property of the selected element
-      el.style.height = newHeight + 'px';
-      }
-      
-      window.addEventListener('scroll', callback, false);
-       </script>
+  <script src="javascript/infiniscroll.js"></script>
+  <script src="javascript/kleuren.js"></script>
+  <Script src="javascript/popup.js"></Script>
+  <script src="javascript/winclose.js"></script>
 
 </body>
 </html>
