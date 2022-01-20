@@ -12,4 +12,4 @@ function setAutoScroll(newValue) {
       },autoScrollDelay)
     }
 }
-setAutoScroll(10) // higher number scrolls slower
+setAutoScroll(15) // higher number scrolls slower
