@@ -12,4 +12,3 @@ var callback = function test() {
       }
       
       window.addEventListener('scroll', callback, false);
-//test
