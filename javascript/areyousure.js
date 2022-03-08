@@ -8,7 +8,7 @@ function jegus() {
         cont.innerHTML = "are you sure?";
         sure = true;
     } else {
-        window.open("https://irritant.nikirakoon.nl/");
+        window.open("https://irritant.nikirakoon.nl/main.html");
     }
 }
 
